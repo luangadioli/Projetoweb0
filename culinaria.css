@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 150px;
+}
+
+.header_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+
+}
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    font-size: 22px;
+    color: black;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+
+.menu li{
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.body1{
+   background-image: url(./img/back.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 250px;
+}
+
+.bemvindo h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+}
+
+.bemvindo p{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.main{
+    padding: 50px;
+}
+
+.comida{
+    display: flex;
+}
+
+.texto_comida{
+    width: 50%;
+    padding: 50px;
+}
+
+.texto_comida h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto_comida p{
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.imagem_minas img{
+    border-radius: 100px;
+}
+
+.main2{
+    padding: 50px;
+}
+
+.fotocomida{
+    display: flex;
+}
+
+.fotocomida1 {
+    width: 50%;
+}
+
+.fotocomida1 img{
+    width: 300px;
+    border-radius: 500px;
+    margin-top: 60px;
+}
+
+.texto_comida2{
+    width: 50%;
+}
+
+.texto_comida2 h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto_comida2 p{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.main3{
+    padding: 50px;
+}
+
+.quemsomos{
+    display: flex;
+}
+
+.texto_quemsomos{
+    width: 50%;
+    padding: 50px;
+}
+
+.texto_quemsomos h1{
+    text-align: center;
+    font-size: 30px; 
+}
+
+.texto_quemsomos p{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.imagem_chefe img{
+    margin-top: 60px;
+}
+
+.main4{
+    padding: 50px;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 57, 57);
+    border-radius: 5px;
+}
+
+.form{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.form input textarea button{
+    border-radius: 5px;
+}
+
+.form h1{
+    font-size: 30px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    color: white;
+    position: relative;
+    left: 12px;
+}
+
+.form input{
+    margin: 10px;
+    border-radius: 5px;
+    height: 25px;
+    width: 255px;
+
+}
+
+.form textarea{
+    border-radius: 5px;
+    height: 80px;
+    width: 255px;
+    position: relative;
+    left: 10px;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form button{
+    position: relative;
+    left: 10px;
+    height: 30px;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+
+.textocontato{
+   width: 50%;
+}
+
+.textocontato h1{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.textocontato h2{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.textocontato p {
+    position: relative;
+    top: 60px;
+    color: white;
+}
+
+.rodape{
+    height: 250px;
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape img{
+    width: 130px;
+    height: 130px;
+    padding: 15px;
+    position: relative;
+    left: 45%;
+    border-radius: 200px;
+}
+
+.redes ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.redes{
+    margin-left: 42%;
+    margin-right: 50%;
+
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 25px;
+    
+}
